@@ -1,0 +1,5 @@
+rash: read.o rashmain.o treest.o
+read.o: read.c read.h
+rashmain.c: treeform.h
+treest.o: treeform.h 
+

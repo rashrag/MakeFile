@@ -1,0 +1,7 @@
+rash: read.o rashmain.o treest.o
+	gcc -o hello hello.o
+read.o: read.c read.h
+rashmain.o: treeform.h
+treest.o: treest.c treeform.h
+	gcc -c  hello.c
+tree.o: tree.h
